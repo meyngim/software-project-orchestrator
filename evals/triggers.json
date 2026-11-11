@@ -1,0 +1,11 @@
+{
+  "skill": "software-project-orchestrator",
+  "test_cases": [
+    {"input": "Plan a new mobile app for me", "should_trigger": true},
+    {"input": "What should we build next on this project?", "should_trigger": true},
+    {"input": "Bootstrap a new SaaS with the usual standards", "should_trigger": true},
+    {"input": "How do I center a div in CSS?", "should_trigger": false},
+    {"input": "Explain what a skill file is", "should_trigger": false},
+    {"input": "Continue development of my property management system", "should_trigger": true}
+  ]
+}

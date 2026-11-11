@@ -1,0 +1,33 @@
+{
+  "skill": "software-project-orchestrator",
+  "test_cases": [
+    {
+      "name": "new_project_missing_stack",
+      "input": "I want to build a snake game that works on web and mobile.",
+      "assertions": [
+        "Asks about preferred tech stack",
+        "Asks about key game rules or mechanics",
+        "Proposes a phased plan",
+        "Requests approval before implementation"
+      ]
+    },
+    {
+      "name": "continue_existing_project",
+      "input": "Continue the EstateCare project. What's next?",
+      "assertions": [
+        "Looks for or asks about existing context",
+        "Proposes only the next logical phase",
+        "Does not re-ask already confirmed stack unless unclear"
+      ]
+    },
+    {
+      "name": "explicit_stack_given",
+      "input": "Build a news portal with Laravel + Next.js. Users can post and comment. Start planning.",
+      "assertions": [
+        "Uses the stated stack without re-asking",
+        "Asks only for missing business rules",
+        "Produces a structured phased plan"
+      ]
+    }
+  ]
+}
